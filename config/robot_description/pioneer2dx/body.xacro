@@ -181,7 +181,7 @@
 
   <link name="laser0"/>
   <joint name="top_to_laser_joint" type="fixed">
-    <origin xyz="0 0 ${laser_z}" rpy="0 0 ${M_PI}"/>
+    <origin xyz="0 0 ${laser_z}" rpy="0 0 0"/>
     <parent link="top_plate"/>
     <child  link="laser0"/>
   </joint>
